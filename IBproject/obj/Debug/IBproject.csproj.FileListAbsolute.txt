@@ -1,0 +1,10 @@
+D:\IBc++\IBproject\IBproject\bin\Debug\IBproject.exe.config
+D:\IBc++\IBproject\IBproject\bin\Debug\IBproject.exe
+D:\IBc++\IBproject\IBproject\bin\Debug\IBproject.pdb
+D:\IBc++\IBproject\IBproject\obj\Debug\IBproject.csprojAssemblyReference.cache
+D:\IBc++\IBproject\IBproject\obj\Debug\IBproject.Form1.resources
+D:\IBc++\IBproject\IBproject\obj\Debug\IBproject.Properties.Resources.resources
+D:\IBc++\IBproject\IBproject\obj\Debug\IBproject.csproj.GenerateResource.cache
+D:\IBc++\IBproject\IBproject\obj\Debug\IBproject.csproj.CoreCompileInputs.cache
+D:\IBc++\IBproject\IBproject\obj\Debug\IBproject.exe
+D:\IBc++\IBproject\IBproject\obj\Debug\IBproject.pdb
