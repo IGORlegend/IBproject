@@ -8,3 +8,5 @@ D:\IBc++\IBproject\IBproject\obj\Debug\IBproject.csproj.GenerateResource.cache
 D:\IBc++\IBproject\IBproject\obj\Debug\IBproject.csproj.CoreCompileInputs.cache
 D:\IBc++\IBproject\IBproject\obj\Debug\IBproject.exe
 D:\IBc++\IBproject\IBproject\obj\Debug\IBproject.pdb
+D:\IBc++\IBproject\IBproject\obj\Debug\IBproject.createNewWindow.resources
+D:\IBc++\IBproject\IBproject\obj\Debug\IBproject.PaintForm.resources

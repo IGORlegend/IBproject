@@ -39,12 +39,12 @@ namespace IBproject
             this.viewClose = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1 = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.RangeUD = new System.Windows.Forms.DomainUpDown();
             this.pColor = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolInstruments = new System.Windows.Forms.ToolStripStatusLabel();
-            this.RangeUD = new System.Windows.Forms.DomainUpDown();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -76,20 +76,21 @@ namespace IBproject
             // menuImport
             // 
             this.menuImport.Name = "menuImport";
-            this.menuImport.Size = new System.Drawing.Size(130, 22);
+            this.menuImport.Size = new System.Drawing.Size(180, 22);
             this.menuImport.Text = "Import";
             // 
             // menuSaveAs
             // 
             this.menuSaveAs.Name = "menuSaveAs";
-            this.menuSaveAs.Size = new System.Drawing.Size(130, 22);
+            this.menuSaveAs.Size = new System.Drawing.Size(180, 22);
             this.menuSaveAs.Text = "Save as";
             // 
             // menuCreateNew
             // 
             this.menuCreateNew.Name = "menuCreateNew";
-            this.menuCreateNew.Size = new System.Drawing.Size(130, 22);
+            this.menuCreateNew.Size = new System.Drawing.Size(180, 22);
             this.menuCreateNew.Text = "Create new";
+            this.menuCreateNew.Click += new System.EventHandler(this.menuCreateNew_Click);
             // 
             // viewToolStripMenuItem
             // 
@@ -103,14 +104,16 @@ namespace IBproject
             // viewOpen
             // 
             this.viewOpen.Name = "viewOpen";
-            this.viewOpen.Size = new System.Drawing.Size(141, 22);
-            this.viewOpen.Text = "Open Window";
+            this.viewOpen.Size = new System.Drawing.Size(180, 22);
+            this.viewOpen.Text = "Open BitMap";
+            this.viewOpen.Click += new System.EventHandler(this.viewOpen_Click);
             // 
             // viewClose
             // 
             this.viewClose.Name = "viewClose";
-            this.viewClose.Size = new System.Drawing.Size(141, 22);
-            this.viewClose.Text = "Close Window";
+            this.viewClose.Size = new System.Drawing.Size(180, 22);
+            this.viewClose.Text = "Close BitMap";
+            this.viewClose.Click += new System.EventHandler(this.viewClose_Click);
             // 
             // panel1
             // 
@@ -133,6 +136,13 @@ namespace IBproject
             this.groupBox1.Size = new System.Drawing.Size(139, 188);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
+            // 
+            // RangeUD
+            // 
+            this.RangeUD.Location = new System.Drawing.Point(6, 114);
+            this.RangeUD.Name = "RangeUD";
+            this.RangeUD.Size = new System.Drawing.Size(127, 31);
+            this.RangeUD.TabIndex = 3;
             // 
             // pColor
             // 
@@ -179,13 +189,6 @@ namespace IBproject
             this.toolInstruments.Size = new System.Drawing.Size(65, 17);
             this.toolInstruments.Text = "Instruments";
             // 
-            // RangeUD
-            // 
-            this.RangeUD.Location = new System.Drawing.Point(6, 114);
-            this.RangeUD.Name = "RangeUD";
-            this.RangeUD.Size = new System.Drawing.Size(127, 31);
-            this.RangeUD.TabIndex = 3;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
@@ -197,6 +200,7 @@ namespace IBproject
             this.Controls.Add(this.menuStrip1);
             this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Form1";
